@@ -191,7 +191,7 @@
             array_push($category, "C");
         }
         $lettersRegX = '/[^A-Za-z]/';
-        if(!preg_match($lettersRegX, $fName) && strlen($fname) >= 2 && strlen($fName) <= 20 &&
+        if(!preg_match($lettersRegX, $fName) && strlen($fName) >= 2 && strlen($fName) <= 20 &&
             !preg_match($lettersRegX,$lName) && strlen($lName) >= 2 && strlen($lName) <= 20 &&
             !preg_match($lettersRegX, $lang) && strlen($lang) >= 2 && strlen($lang) <= 20 &&
             !preg_match('/[^A-Za-z0-9 ]/', $compName) && strlen($compName) >= 2 && strlen($compName) <= 20 &&

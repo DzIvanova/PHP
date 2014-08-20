@@ -26,13 +26,14 @@
       <file leaf-file-name="CVGenerator.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CVGenerator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="9" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.41262135" vertical-offset="416" max-vertical-offset="1944">
+            <state line="22" column="33" selection-start="973" selection-end="973" vertical-scroll-proportion="0.48058254" vertical-offset="0" max-vertical-offset="2214">
               <folding>
-                <element signature="e#1607#3081#0" expanded="false" />
+                <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+                <element signature="e#1562#2234#0" expanded="false" />
+                <element signature="e#2270#2520#0" expanded="false" />
                 <element signature="tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#select#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#fieldset#1;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -41,7 +42,7 @@
       <file leaf-file-name="7. AddRemoveInputTextDynamically.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="-24.923077" vertical-offset="0" max-vertical-offset="828">
+            <state line="36" column="0" selection-start="955" selection-end="1125" vertical-scroll-proportion="-18.538462" vertical-offset="166" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -269,11 +270,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="66" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2340">
           <folding>
-            <element signature="e#1607#3081#0" expanded="false" />
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="e#1562#2234#0" expanded="false" />
+            <element signature="e#2270#2520#0" expanded="false" />
             <element signature="tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#select#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#fieldset#1;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -383,20 +385,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="-24.923077" vertical-offset="0" max-vertical-offset="828">
+        <state line="36" column="0" selection-start="955" selection-end="1125" vertical-scroll-proportion="-18.538462" vertical-offset="166" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CVGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="9" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.41262135" vertical-offset="416" max-vertical-offset="1944">
+        <state line="22" column="33" selection-start="973" selection-end="973" vertical-scroll-proportion="0.48058254" vertical-offset="0" max-vertical-offset="2214">
           <folding>
-            <element signature="e#1607#3081#0" expanded="false" />
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+            <element signature="e#1562#2234#0" expanded="false" />
+            <element signature="e#2270#2520#0" expanded="false" />
             <element signature="tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#select#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#fieldset#1;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>

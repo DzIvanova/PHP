@@ -1,5 +1,27 @@
 <?php
-
+if(isset($_POST['fName']) && isset($_POST['lName']) && isset($_POST['email']) &&
+isset($_POST['phone']) && isset($_POST['sex']) && isset($_POST['bDay']) &&
+isset($_POST['nationality']) && isset($_POST['compName']) &&
+isset($_POST['from']) && isset($_POST['to']) && isset($_POST['progrLang']) &&
+    isset($_POST['progLevel']) && isset($_POST['Lang']) && isset($_POST['comprehension']) &&
+    isset($_POST['reading']) && isset($_POST['writing'])) {
+    $fName = $_POST['fName'];
+    $lName = $_POST['lName'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $sex = $_POST['sex'];
+    $bDay = $_POST['bDay'];
+    $nationality = $_POST['nationality'];
+    $compName = $_POST['compName'];
+    $from = $_POST['from'];
+    $to = $_POST['to'];
+    $progLang = $_POST['progLang'];
+    $progLevel = $_POST['progLevel'];
+    $lang = $_POST['Lang'];
+    $comprehension = $_POST['comprehension'];
+    $reading = $_POST['reading'];
+    $writing = $_POST['writing'];
+}
 ?>
 <!DOCTYPE html>
 <html>

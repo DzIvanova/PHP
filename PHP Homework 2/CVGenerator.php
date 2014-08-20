@@ -1,27 +1,5 @@
 <?php
-if(isset($_POST['fName']) && isset($_POST['lName']) && isset($_POST['email']) &&
-isset($_POST['phone']) && isset($_POST['sex']) && isset($_POST['bDay']) &&
-isset($_POST['nationality']) && isset($_POST['compName']) &&
-isset($_POST['from']) && isset($_POST['to']) && isset($_POST['progrLang']) &&
-    isset($_POST['progLevel']) && isset($_POST['Lang']) && isset($_POST['comprehension']) &&
-    isset($_POST['reading']) && isset($_POST['writing'])) {
-    $fName = $_POST['fName'];
-    $lName = $_POST['lName'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $sex = $_POST['sex'];
-    $bDay = $_POST['bDay'];
-    $nationality = $_POST['nationality'];
-    $compName = $_POST['compName'];
-    $from = $_POST['from'];
-    $to = $_POST['to'];
-    $progLang = $_POST['progLang'];
-    $progLevel = $_POST['progLevel'];
-    $lang = $_POST['Lang'];
-    $comprehension = $_POST['comprehension'];
-    $reading = $_POST['reading'];
-    $writing = $_POST['writing'];
-}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -45,6 +23,12 @@ isset($_POST['from']) && isset($_POST['to']) && isset($_POST['progrLang']) &&
         }
         section form fieldset {
             width: 500px;
+        }
+        #result {
+            display:inline-block;
+            width:500px;
+            vertical-align:top;
+            margin-left:80px;
         }
     </style>
     <script>
@@ -172,6 +156,96 @@ isset($_POST['from']) && isset($_POST['to']) && isset($_POST['progrLang']) &&
 
     </form>
 </section>
+<div id="result">
+    <?php
+    if(isset($_POST['fName']) && isset($_POST['lName']) && isset($_POST['email']) &&
+        isset($_POST['phone']) && isset($_POST['sex']) && isset($_POST['bDay']) &&
+        isset($_POST['nationality']) && isset($_POST['compName']) &&
+        isset($_POST['from']) && isset($_POST['to']) && isset($_POST['progrLang']) &&
+        isset($_POST['progLevel']) && isset($_POST['Lang']) && isset($_POST['comprehension']) &&
+        isset($_POST['reading']) && isset($_POST['writing'])) {
+        $fName = htmlentities($_POST['fName']);
+        $lName = htmlentities($_POST['lName']);
+        $email = htmlentities($_POST['email']);
+        $phone = htmlentities($_POST['phone']);
+        $sex = $_POST['sex'];
+        $bDay = $_POST['bDay'];
+        $nationality = $_POST['nationality'];
+        $compName = htmlentities($_POST['compName']);
+        $from = $_POST['from'];
+        $to = $_POST['to'];
+        $progLang = htmlentities($_POST['progLang']);
+        $progLevel = $_POST['progLevel'];
+        $lang = htmlentities($_POST['Lang']);
+        $comprehension = $_POST['comprehension'];
+        $reading = $_POST['reading'];
+        $writing = $_POST['writing'];
+        $category = "";
+        if(isset($_POST['B-cat'])){
+            array_push($category, "B");
+        }
+        if(isset($_POST['A-cat'])){
+            array_push($category, "A");
+        }
+        if(isset($_POST['C-cat'])){
+            array_push($category, "C");
+        }
+        $lettersRegX = '/[^A-Za-z]/';
+        if(!preg_match($lettersRegX, $fName) && strlen($fname) >= 2 && strlen($fName) <= 20 &&
+            !preg_match($lettersRegX,$lName) && strlen($lName) >= 2 && strlen($lName) <= 20 &&
+            !preg_match($lettersRegX, $lang) && strlen($lang) >= 2 && strlen($lang) <= 20 &&
+            !preg_match('/[^A-Za-z0-9 ]/', $compName) && strlen($compName) >= 2 && strlen($compName) <= 20 &&
+            !preg_match('/[^0-9\+\-\s]/', $phone) && !preg_match('/[^a-zA-z0-9]+@{1}[a-zA-z0-9]+.{1}[a-zA-z0-9]+/', $email)){
+            $personalInfo = '<table><thead><tr><th colspan="2">Personal Information</th></tr></thead><tbody>' .
+                '<tr><td>First Name</td><td>' . $fName . '</td></tr><td>Last Name</td><td>' . $lName  . '</td></tr>' .
+                '<tr><td>Email</td><td>' . $email . '</td></tr>' .
+                '<tr><td>Phone</td><td>' . $phone . '</td></tr>' .
+                '<tr><td>Gender</td><td>' . $sex . '</td></tr>' .
+                '<tr><td>Birth Date</td><td>' . $bDay . '</td></tr>' .
+                '<tr><td>Nationality</td><td>' . $nationality . '</td></tr></tbody></table>';
+            $lastWorkTable = '<table><thead><tr><th colspan="2">Last Work Position</th></tr></thead><tbody>' .
+                '<tr><td>Company Name</td><td>' . $compName . '</td></tr>' .
+                '<tr><td>From</td><td>' . $from . '</td></tr>' .
+                '<tr><td>To</td><td>' . $to . '</td></tr></tbody></table>';
+            $computerSkillsTable = '<table><thead><tr><th colspan="2">Computer Skills</th></tr></thead><tbody>' .
+                '<tr><td>Programming Languages</td><td><table><thead><tr><th>Language</th><th>Skill Level</th></tr></thead>' .
+                '<tbody>';
+            for($i = 0; $i < count($progLevel) ;$i++) {
+                $computerSkillsTable .= '<tr>';
+                $computerSkillsTable .= '<td>' . $progLang[$i] . '</td>';
+                $computerSkillsTable .= '<td>' . $progLevel[$i] . '</td>';
+                $computerSkillsTable .= '</tr>';
 
+                $computerSkillsTable .= '</tbody></table></tr></tbody></table>';
+
+                $otherSkills = '<table><thead><tr><th colspan="2">Other Skills</th></tr></thead><tbody>' .
+                    '<tr><td>Languages</td><td><table><thead><th>Language</th><th>Comprehension</th>' .
+                    '<th>Reading</th><th>Writing</th></tr>';
+
+                for($i = 0; $i < count($lang) ;$i++) {
+                    $otherSkills .= '<tr>';
+                    $otherSkills .= '<td>' . $lang[$i] . '</td>';
+                    $otherSkills .= '<td>' . $comprehension[$i] . '</td>';
+                    $otherSkills .= '<td>' . $reading[$i] . '</td>';
+                    $otherSkills .= '<td>' . $writing[$i] . '</td>';
+                }
+                $otherSkills .= '</tbody></table></tr><tr><td>Driver`s License</td><td>' .
+                    $category[0] . " ".  $category[1]. " " . $category[2] .'</td></tr>';
+                $otherSkills .= '</tbody></table>';
+            }
+        }
+
+    }
+    if(isset($personalInfo) && isset($lastWorkTable) && isset($computerSkillsTable) && $otherSkills) {
+    echo $personalInfo;
+    echo $lastWorkTable;
+    echo $computerSkillsTable;
+    echo $otherSkills;
+    }
+    else {
+        echo "Please enter a valid information to generate your CV";
+    }
+    ?>
+</div>
 </body>
 </html>

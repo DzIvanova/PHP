@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}table, tr, td{
+	border : 1px solid black;
+}
+ td {
+     padding: 5px;
+ }
+#atr {
+    text-align: left;
+    font-weight: bold;
+    background-color: #F09928;
+}
+td {
+    text-align: right;
+}

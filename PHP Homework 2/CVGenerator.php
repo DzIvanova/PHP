@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Julie
- * Date: 14-8-19
- * Time: 13:06
- */
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -32,24 +27,59 @@
     </style>
     <script>
         var progLangID = 0;
-
         function addProgLang() {
-            progLangID++;
+            //progLangID++;
             var progLangDiv = document.createElement("div");
             progLangDiv.setAttribute("id", "progDiv" + progLangID);
             progLangID++;
-            progLangDiv.innerHTML = "<input type='text' name='progLang[]' /> " + "<select name="porgLevel[]>" +
-                    "<option value="Beginner">Beginner</option>" +
-                    "<option value="Programmer">Programmer</option>" +
-                    "<option value="Ninja">Ninja</option>" +
-                    "</select>";
+            progLangDiv.innerHTML = '<input type="text" name="progrLang[]" id="progrLanguages" /> ' +
+                '<select name="porgLevel[]" id="level">' +
+                    '<option value="Beginner">Beginner</option>' +
+                    '<option value="Programmer">Programmer</option>' +
+            '<option value="Ninja">Ninja</option>' +
+                    '</select>';
 
-            document.getElementById('programmingLanguagesParent').appendChild(progLangDiv);
+            document.getElementById("programmingLanguagesParent").appendChild(progLangDiv);
         }
 
-        function removeElement(id) {
-            var inputDiv = document.getElementById(id);
-            document.getElementById('parent').removeChild(inputDiv);
+        function removeProgLang() {
+            var lastDiv = document.getElementById("programmingLanguagesParent").lastChild;
+            if(lastDiv.id != "progDiv0"){
+                document.getElementById("programmingLanguagesParent").removeChild(lastDiv);
+            }
+        }
+        var langID = 0;
+        function addLanguage() {
+            var langDiv = document.createElement("div");
+            langDiv.setAttribute("id", "langNum" + langID);
+            langID++;
+            langDiv.innerHTML = '<input type="text" name="Lang[]" id="Languages" /> ' +
+                '<select name="comprehension[]" id="comprehension">'+
+                '<option value="default" disabled selected>-Comprehension-</option>' +
+                '<option value="beginner">beginner</option>' +
+                '<option value="intermediate">intermediate</option>' +
+                '<option value="advanced">advanced</option>' +
+                '</select>' +
+                '<select name="reading[]" id="reading">' +
+                '<option value="default" disabled selected>-Reading-</option>' +
+                '<option value="beginner">beginner</option>' +
+                '<option value="intermediate">intermediate</option>' +
+                '<option value="advanced">advanced</option>' +
+                ' </select>' +
+                ' <select name="writing[]" id="writing">' +
+                '<option value="default" disabled selected required="true">-Writing-</option>' +
+                ' <option value="beginner">beginner</option>' +
+                '<option value="intermediate">intermediate</option>'+
+                '<option value="advanced">advanced</option>'+
+                '</select>'+
+                ' <br/>';
+            document.getElementById("languageParent").appendChild(langDiv);
+        }
+        function removeLanguage() {
+            var lastDiv = document.getElementById("languageParent").lastChild;
+            if(lastDiv != "langNum0"){
+                document.getElementById("languageParent").removeChild(lastDiv);
+            }
         }
     </script>
 </head>
@@ -94,8 +124,8 @@
             <script>
                 addProgLang();
             </script>
-            <input type="button" value="Remove Language" onclick="removeProgLang()">
-            <input type="button" value="Add Language" onclick="addProgLang()">
+            <input type="button" name="removePL" value="Remove Language" onclick="removeProgLang()">
+            <input type="button" name="progLang[]" value="Add Language" onclick="addProgLang()">
         </fieldset>
         <fieldset>
             <legend>Other Skills</legend>
@@ -106,8 +136,8 @@
             <script>
                 addLanguage();
             </script>
-            <input type="button" value="Remove Language" onclick="removeLanguage()">
-            <input type="button" value="Add Language" onclick="addLanguage()">
+            <input type="button" name="removeL" value="Remove Language" onclick="removeLanguage()">
+            <input type="button" name="Lang[]" value="Add Language" onclick="addLanguage()">
             <p>Driver's License</p>
             <label for="b">B </label>
             <input type="checkbox" id="b" value="B" name="B-cat">

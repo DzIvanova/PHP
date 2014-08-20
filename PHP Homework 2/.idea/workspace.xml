@@ -26,9 +26,13 @@
       <file leaf-file-name="CVGenerator.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CVGenerator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="66" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.40916273" vertical-offset="438" max-vertical-offset="2210">
+            <state line="42" column="9" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.41262135" vertical-offset="416" max-vertical-offset="1944">
               <folding>
-                <element signature="e#6#84#0" expanded="true" />
+                <element signature="e#1607#3081#0" expanded="false" />
+                <element signature="tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#select#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#fieldset#1;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -37,16 +41,7 @@
       <file leaf-file-name="7. AddRemoveInputTextDynamically.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLTagsCounter.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="7" selection-start="26" selection-end="1845" vertical-scroll-proportion="-9.961538" vertical-offset="591" max-vertical-offset="952">
+            <state line="36" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="-24.923077" vertical-offset="0" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
@@ -68,21 +63,23 @@
         <option value="$PROJECT_DIR$/02 MostFrequentTags.php" />
         <option value="$PROJECT_DIR$/01 PrintTags.php" />
         <option value="$PROJECT_DIR$/HTMLTagsCounter.php" />
+        <option value="$PROJECT_DIR$/addRemoveLanguages.js" />
+        <option value="$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php" />
         <option value="$PROJECT_DIR$/CVGenerator.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <option name="servers">
-      <server deployment_server="90c47c29-d838-460d-9f59-9b275c2e27fa" host="localhost" name="XAMPP Apache" validation_dir="C:\xampp\htdocs\PHP Homework 2" />
+      <server deployment_server="7ad7cd1b-e0d8-4220-97f6-05ed545da31a" host="localhost" name="XAMPP Apache" validation_dir="C:\xampp\htdocs\trunk\PHP Homework 2" />
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name=" PHP from XAMPP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="780" />
+    <option name="x" value="10" />
+    <option name="y" value="5" />
+    <option name="width" value="1260" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -132,7 +129,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,10 +149,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -164,10 +161,10 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CVGenerator.php" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
-  <component name="RunManager" selected="PHP Web Application.HTMLTagsCounter.php">
+  <component name="RunManager" selected="PHP Web Application.cvGenerator">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -184,19 +181,31 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
+    <configuration default="false" name="cvgen" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/PHP Homework 2/CVGenerator.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="02 CalculateInterest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/02 CalculateInterest.php">
       <RunnerSettings RunnerId="PhpScriptDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="HTMLTagsCounter.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="XAMPP Apache" start_url="/PHP Homework 2/HTMLTagsCounter.php">
+    <configuration default="false" name="HTMLTagsCounter.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="XAMPP Apache" start_url="C:\xampp\htdocs\trunk\PHP Homework 2">
       <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.02 CalculateInterest.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.HTMLTagsCounter.php" />
+    <configuration default="false" name="cvGenerator" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="XAMPP Apache" start_url="/trunk/PHP Homework 2/CVGenerator.php">
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cvgen" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.02 CalculateInterest.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Web Application.HTMLTagsCounter.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Web Application.cvGenerator" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -209,8 +218,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="780" extended-state="6" />
-    <editor active="false" />
+    <frame x="10" y="5" width="1260" height="984" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -219,19 +228,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30364963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25080386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30251142" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -249,15 +258,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/1.1. GetRequest.php">
+    <entry file="file://$PROJECT_DIR$/CVGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="510">
+        <state line="41" column="66" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2340">
+          <folding>
+            <element signature="e#1607#3081#0" expanded="false" />
+            <element signature="tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#select#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#fieldset#1;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="990">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="7" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/1.1. GetRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/2. Normalization-AddressBook/2.2.Normalization-AddressBook.php">
@@ -317,51 +354,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/1.1. GetRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.027070064" vertical-offset="0" max-vertical-offset="628">
-          <folding />
-        </state>
+        <state line="1" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="0.027070064" vertical-offset="0" max-vertical-offset="628" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02 MostFrequentTags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="-12.384615" vertical-offset="137" max-vertical-offset="561">
+        <state line="27" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="-12.384615" vertical-offset="137" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03 CalculateInterest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="741" selection-end="1844" vertical-scroll-proportion="0.7174515" vertical-offset="897" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="7" selection-start="26" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1008">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01 PrintTags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.33426967" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03 CalculateInterest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="741" selection-end="1844" vertical-scroll-proportion="0.7174515" vertical-offset="897" max-vertical-offset="1258">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="7" selection-start="26" selection-end="1845" vertical-scroll-proportion="-9.961538" vertical-offset="591" max-vertical-offset="952">
+        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.15291262" vertical-offset="0" max-vertical-offset="824">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="935">
+        <state line="36" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="-24.923077" vertical-offset="0" max-vertical-offset="828">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CVGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="66" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.40916273" vertical-offset="438" max-vertical-offset="2210">
+        <state line="42" column="9" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.41262135" vertical-offset="416" max-vertical-offset="1944">
           <folding>
-            <element signature="e#6#84#0" expanded="true" />
+            <element signature="e#1607#3081#0" expanded="false" />
+            <element signature="tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#select#0;tag#fieldset#0;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#fieldset#1;tag#form#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>

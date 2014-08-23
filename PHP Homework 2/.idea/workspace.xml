@@ -25,6 +25,9 @@
     <favorites_list name="PHP Homework 2" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< .mine
+    <leaf />
+=======
     <leaf>
       <file leaf-file-name="CVGenerator.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CVGenerator.php">
@@ -61,6 +64,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> .r7
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -89,10 +93,17 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name=" PHP from XAMPP" />
   <component name="ProjectFrameBounds">
+<<<<<<< .mine
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
+=======
     <option name="x" value="-4" />
     <option name="y" value="-4" />
     <option name="width" value="1288" />
     <option name="height" value="780" />
+>>>>>>> .r7
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -142,6 +153,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,11 +174,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -174,7 +185,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CVGenerator.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager" selected="PHP Web Application.cvGenerator">
@@ -231,7 +242,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< .mine
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
+=======
     <frame x="-4" y="-4" width="1288" height="780" extended-state="6" />
+>>>>>>> .r7
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -239,21 +254,26 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< .mine
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30251142" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25078124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30218977" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> .r7
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -280,6 +300,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CVGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state line="22" column="33" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3276" />
+=======
         <state line="22" column="33" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3094">
           <folding />
         </state>
@@ -297,17 +320,29 @@
         <state line="41" column="66" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2340">
           <folding />
         </state>
+>>>>>>> .r7
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="36" column="0" selection-start="955" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="66" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state line="50" column="7" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008" />
+=======
         <state line="50" column="7" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
           <folding>
             <marker date="1408442815394" expanded="true" signature="47:1844" placeholder="..." />
@@ -318,6 +353,7 @@
             <marker date="1408442815394" expanded="true" signature="266:422" placeholder="..." />
           </folding>
         </state>
+>>>>>>> .r7
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/1.1. GetRequest.php">
@@ -397,18 +433,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01 PrintTags.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state line="50" column="7" selection-start="26" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1008" />
+=======
         <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.15291262" vertical-offset="0" max-vertical-offset="824" />
+>>>>>>> .r7
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state line="7" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.15291262" vertical-offset="0" max-vertical-offset="824" />
+=======
         <state line="36" column="0" selection-start="955" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="935">
           <folding />
         </state>
+>>>>>>> .r7
       </provider>
     </entry>
+<<<<<<< .mine
+    <entry file="file://$PROJECT_DIR$/CVGenerator.php">
+=======
     <entry file="file://$PROJECT_DIR$/HTMLTagsCounter.php">
+>>>>>>> .r7
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state line="22" column="33" selection-start="973" selection-end="973" vertical-scroll-proportion="0.46588236" vertical-offset="0" max-vertical-offset="3276" />
+=======
         <state line="35" column="53" selection-start="1533" selection-end="1533" vertical-scroll-proportion="-2.6538463" vertical-offset="526" max-vertical-offset="952">
           <folding>
             <marker date="1408442815394" expanded="true" signature="47:1844" placeholder="..." />
@@ -419,13 +470,18 @@
             <marker date="1408442815394" expanded="true" signature="266:422" placeholder="..." />
           </folding>
         </state>
+>>>>>>> .r7
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CVGenerator.php">
+    <entry file="file://$PROJECT_DIR$/../2. Working-with-Forms-in-PHP-Demos_works/7. AddRemoveInputTextDynamically.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state line="36" column="0" selection-start="955" selection-end="1125" vertical-scroll-proportion="0.5976471" vertical-offset="140" max-vertical-offset="990" />
+=======
         <state line="200" column="34" selection-start="8667" selection-end="8667" vertical-scroll-proportion="0.46391752" vertical-offset="3220" max-vertical-offset="4352">
           <folding />
         </state>
+>>>>>>> .r7
       </provider>
     </entry>
   </component>

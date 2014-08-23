@@ -32,23 +32,22 @@
         }
     </style>
     <script>
-        var progLangID = 0;
-        function addProgLang() {
-            //progLangID++;
-            var progLangDiv = document.createElement("div");
-            progLangDiv.setAttribute("id", "progDiv" + progLangID);
-            progLangID++;
-            progLangDiv.innerHTML = '<input type="text" name="progrLang[]" id="progrLanguages" /> ' +
+        var progrLangID = 0;
+        function addProgrLang() {
+            var progrLangDiv = document.createElement("div");
+            progrLangDiv.setAttribute("id", "progDiv" + progrLangID);
+            progrLangID++;
+            progrLangDiv.innerHTML = '<input type="text" name="progrLang[]" id="progrLanguages" /> ' +
                 '<select name="porgLevel[]" id="level">' +
                     '<option value="Beginner">Beginner</option>' +
                     '<option value="Programmer">Programmer</option>' +
             '<option value="Ninja">Ninja</option>' +
                     '</select>';
 
-            document.getElementById("programmingLanguagesParent").appendChild(progLangDiv);
+            document.getElementById("programmingLanguagesParent").appendChild(progrLangDiv);
         }
 
-        function removeProgLang() {
+        function removeProgrLang() {
             var lastDiv = document.getElementById("programmingLanguagesParent").lastChild;
             if(lastDiv.id != "progDiv0"){
                 document.getElementById("programmingLanguagesParent").removeChild(lastDiv);
@@ -128,10 +127,10 @@
 
             </div>
             <script>
-                addProgLang();
+                addProgrLang();
             </script>
-            <input type="button" name="removePL" value="Remove Language" onclick="removeProgLang()">
-            <input type="button" name="progLang[]" value="Add Language" onclick="addProgLang()">
+            <input type="button" name="removePL" value="Remove Language" onclick="removeProgrLang()">
+            <input type="button" name="progrLang[]" value="Add Language" onclick="addProgrLang()">
         </fieldset>
         <fieldset>
             <legend>Other Skills</legend>
@@ -174,9 +173,9 @@
         $compName = htmlentities($_POST['compName']);
         $from = $_POST['from'];
         $to = $_POST['to'];
-        $progLang = htmlentities($_POST['progLang']);
+        $progrLang = $_POST['progrLang'];
         $progLevel = $_POST['progLevel'];
-        $lang = htmlentities($_POST['Lang']);
+        $lang = $_POST['Lang'];
         $comprehension = $_POST['comprehension'];
         $reading = $_POST['reading'];
         $writing = $_POST['writing'];
@@ -192,8 +191,7 @@
         }
         $lettersRegX = '/[^A-Za-z]/';
         if(!preg_match($lettersRegX, $fName) && strlen($fName) >= 2 && strlen($fName) <= 20 &&
-            !preg_match($lettersRegX,$lName) && strlen($lName) >= 2 && strlen($lName) <= 20 &&
-            !preg_match($lettersRegX, $lang) && strlen($lang) >= 2 && strlen($lang) <= 20 &&
+            !preg_match($lettersRegX,$lName) && strlen($lName) >= 2 && strlen($lName) <= 20  &&
             !preg_match('/[^A-Za-z0-9 ]/', $compName) && strlen($compName) >= 2 && strlen($compName) <= 20 &&
             !preg_match('/[^0-9\+\-\s]/', $phone) && !preg_match('/[^a-zA-z0-9]+@{1}[a-zA-z0-9]+.{1}[a-zA-z0-9]+/', $email)){
             $personalInfo = '<table><thead><tr><th colspan="2">Personal Information</th></tr></thead><tbody>' .
@@ -212,7 +210,7 @@
                 '<tbody>';
             for($i = 0; $i < count($progLevel) ;$i++) {
                 $computerSkillsTable .= '<tr>';
-                $computerSkillsTable .= '<td>' . $progLang[$i] . '</td>';
+                $computerSkillsTable .= '<td>' . $progrLang[$i] . '</td>';
                 $computerSkillsTable .= '<td>' . $progLevel[$i] . '</td>';
                 $computerSkillsTable .= '</tr>';
 
@@ -236,7 +234,7 @@
         }
 
     }
-    if(isset($personalInfo) && isset($lastWorkTable) && isset($computerSkillsTable) && $otherSkills) {
+    if(isset($personalInfo) && isset($lastWorkTable) && isset($computerSkillsTable) && isset($otherSkills)) {
     echo $personalInfo;
     echo $lastWorkTable;
     echo $computerSkillsTable;
